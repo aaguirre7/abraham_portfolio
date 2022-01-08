@@ -6,18 +6,17 @@
 
 /* Site Core Colors + Style*/
 :root {
-    --primary: rgb(15, 207, 63);
+    --primary: rgb(12, 141, 44);
     --secondary:rgb(44, 44, 43);
     --tertiary: rgb(240,121,82)
     --dark: rgba(28, 29, 33, 1);
-    --light: rgb(112, 110, 110);
+    --light: rgb(187, 186, 186);
 }
 
 body {
     margin: 0;
     padding: 0;
     font-family:'Montserrat', sans-serif;
-    color: var(--primary);
     background-color: var(--light);
     line-height: 1.5;
 }
@@ -38,17 +37,19 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-color: var(--tertiary);
+    background-color: var(--light);
     box-shadow: 0 5px 35px rgb(240,121,82);
 }
 
 header h1 {
     color: var(--tertiary);
-    background-color: var(--secondary);
+    background-color: var(--light);
     padding: 5px 1% 5px 5%;
     margin: 0;
     font-size: 3vw;
     line-height: 1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+
 }
 
 header a:hover {
@@ -110,14 +111,14 @@ main {
 }
 
 .hero-banner img {
-    width: 150px;
-    margin: 20px;
+    width: 200px;
+    margin: 70px;
     border-radius: 10%;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .hero-banner img:hover{
-    opacity: 1;
+    opacity: 2;
 }
 
 .hero-banner div {
@@ -125,7 +126,7 @@ main {
 }
 
 .hero-banner h2 {
-    background-color: var(--secondary);
+    
     color: var(--tertiary);
     margin: 0;
     padding: 5px 10px;
@@ -163,6 +164,7 @@ main {
 
 .page-section > div {
     flex: 0 0 75%;
+    text-align: justify;
 }
 
 .page-section p {
@@ -245,7 +247,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     height: 100%;
 }
 
@@ -275,12 +277,7 @@ footer  {
     text-align: center;
     vertical-align: bottom;
   }
-
-
-
-
-
-/* MEDIA QUERIES*/
+  /* MEDIA QUERIES*/
 
 /* Max Width 980px*/
 
