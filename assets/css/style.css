@@ -185,7 +185,6 @@ main {
 .grid-item {
     border: 5px solid var(--secondary);
     grid-column: span 4;
-    /*background-color: var(--primary); */
     color: var(--tertiary);
     min-height: 100px;
     display: flex;
