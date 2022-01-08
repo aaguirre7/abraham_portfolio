@@ -11,7 +11,7 @@
 <!-- Project Logo -->
 <br />
 <div align="center">
-    <a href="https://demo-porfolio.abrahamaguirre.com">
+    <a href="https://demo-portfolio.abrahamaguirre.com">
         <img src="./assets/images/logo_readme.png" alt="portfolio">
     <a/>
     <h3 align="center">
@@ -25,7 +25,7 @@
         </a>
         <br />
         <br />
-        <a href="https://demo-porfolio.abrahamaguirre.com">
+        <a href="https://demo-portfolio.abrahamaguirre.com">
             View the site
         </a>
     </p>
@@ -95,7 +95,7 @@ Happy painting!
 
 Abraham Aguirre Aguirre.Abraham@gmail.com
 
-Project Link: [https://demo-porfolio.abrahamaguirre.com](https://demo-porfolio.abrahamaguirre.com)
+Project Link: [https://demo-portfolio.abrahamaguirre.com](https://demo-porfolio.abrahamaguirre.com)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
