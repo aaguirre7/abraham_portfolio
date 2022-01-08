@@ -1,3 +1,9 @@
+/***********************************
+ * GENERAL STYLES                  *
+ * rules and style for Portfolio   *
+ * Version: 6                      *
+ * By Abraham Aguirre              *
+ ***********************************/
 /* Portfolio Styles */
 
 * {
@@ -53,7 +59,7 @@ header h1 {
 }
 
 header a:hover {
-    color: var(--light);
+    color: var(--dark);
 }
 
 /* Navigational Items */
