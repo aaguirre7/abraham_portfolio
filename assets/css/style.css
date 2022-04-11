@@ -184,7 +184,7 @@ main {
     column-gap: 10px;
     row-gap: 10px;
     grid-auto-flow: dense;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(16, 1fr);
     grid-auto-rows: minmax(150px, 1fr);
 }
 
@@ -206,7 +206,7 @@ main {
 /* Grid Portfolio - Feature First Child */
 .grid-item:first-child {
     grid-column: span 6;
-    grid-row: span 5;
+    grid-row: span 4;
 }
 
 .grid-item:hover {
@@ -245,6 +245,9 @@ main {
 
 .popcorn_time {
     background-image: url("../images/popcorntime.png"); 
+}
+.my_crypto {
+    background-image: url("../images/mycrypto.png"); 
 }
 
 /* Contact Section */
