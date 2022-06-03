@@ -48,8 +48,8 @@ header {
 }
 
 header h1 {
-    color: var(--primary);
-    background-color: var(--primary);
+    color: var(--tertiary);
+    background-color: var(--light);
     padding: 5px 1% 5px 5%;
     margin: 0;
     font-size: 3vw;
@@ -190,12 +190,12 @@ main {
 
 .grid-item {
     border: 5px solid var(--secondary);
-    grid-column: span 4;
+    grid-column: span 6;
     color: var(--tertiary);
     min-height: 100px;
     display: flex;
     align-items: flex-end;
-    padding: 0 0 20px 0;
+    padding: 0 0 10px 0;
     text-decoration: none;
     background-blend-mode: soft-light;
     background-size: 150%;
@@ -206,7 +206,7 @@ main {
 /* Grid Portfolio - Feature First Child */
 .grid-item:first-child {
     grid-column: span 6;
-    grid-row: span 4;
+    grid-row: span 5;
 }
 
 .grid-item:hover {
@@ -215,7 +215,7 @@ main {
 
 .grid-item div {
     background-color: var(--secondary);
-    padding: 8px 10px;
+    padding: 8px 5px;
 }
 
 .grid-item h3 {
